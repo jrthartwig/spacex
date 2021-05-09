@@ -1,11 +1,12 @@
 import React from 'react';
 import ShipData from './ShipData/ShipData';
+import ShipTitle from './ShipTitle';
 
 const FalconHeavy = () => {
 
     return (
         <>
-            <div styles={{ color: "#fff" }}>Falcon Heavy</div>
+            <ShipTitle name="Falcon Heavy" />
             <ShipData name="falconheavy" />
         </>
     )

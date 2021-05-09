@@ -1,10 +1,11 @@
 import React from 'react';
 import ShipData from './ShipData/ShipData';
+import ShipTitle from '../components/ShipTitle';
 
 const Falcon9 = () => {
     return (
         <>
-            <div styles={{ color: "#fff" }}>Falcon 9</div>
+            <ShipTitle name="Falcon 9" />
             <ShipData name="falcon9" />
         </>
     )
