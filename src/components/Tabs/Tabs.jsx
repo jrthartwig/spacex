@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Falcon9 from '../Falcon9';
 import FalconHeavy from '../FalconHeavy';
-import Starship from '../Starship';
+import Starship from '../Starship/Starship';
 import useStyles from './tabs-styles';
 
 

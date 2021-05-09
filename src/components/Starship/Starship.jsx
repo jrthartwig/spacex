@@ -1,6 +1,6 @@
 import React from 'react';
-import ShipData from './ShipData/ShipData';
-import ShipTitle from '../components/ShipTitle';
+import ShipData from '../ShipData/ShipData';
+import ShipTitle from '../ShipTitle/ShipTitle';
 
 const Starship = () => {
 
