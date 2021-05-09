@@ -1,16 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { createUseStyles } from 'react-jss';
-
-const useStyles = createUseStyles({
-    container: {
-        display: "flex",
-        justifyContent: "space-around",
-        paddingTop: "25px",
-        paddingBottom: "25px",
-        paddingLeft: "25px",
-        flexDirection: "column"
-    },
-})
+import useStyles from './ship-data-styles';
 
 const ShipData = (props) => {
 
@@ -41,4 +30,4 @@ const ShipData = (props) => {
     )
 }
 
-export default ShipData
+export default ShipData;

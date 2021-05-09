@@ -1,5 +1,5 @@
 import React from 'react';
-import ShipData from './ShipData';
+import ShipData from './ShipData/ShipData';
 
 const FalconHeavy = () => {
 

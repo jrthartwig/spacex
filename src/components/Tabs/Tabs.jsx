@@ -5,28 +5,14 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import { createUseStyles } from 'react-jss';
-import Falcon9 from './Falcon9';
-import FalconHeavy from './FalconHeavy';
-import Starship from './Starship';
+import Falcon9 from '../Falcon9';
+import FalconHeavy from '../FalconHeavy';
+import Starship from '../Starship';
+import useStyles from './tabs-styles';
 
-const useStyles = createUseStyles({
-    nav: {
-        display: "flex",
-        justifyContent: "space-around",
-        paddingTop: "25px",
-        backgroundColor: "#003B73",
-        paddingBottom: "25px"
-    },
-    link: {
-        color: "#FFFFFF",
-        fontWeight: "bold",
-        fontFamily: "Helvetica",
-        fontSize: "20px"
-    }
-})
 
 const App = () => {
+
     const classes = useStyles();
     useEffect(() => {
         document.title = "SpaceX Stuff"
