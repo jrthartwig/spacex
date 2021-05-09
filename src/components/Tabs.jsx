@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import {
     BrowserRouter as Router,
@@ -10,7 +9,6 @@ import { createUseStyles } from 'react-jss';
 import Falcon9 from './Falcon9';
 import FalconHeavy from './FalconHeavy';
 import Starship from './Starship';
-import Dragon from './Dragon';
 
 const useStyles = createUseStyles({
     nav: {
@@ -44,9 +42,6 @@ const App = () => {
                         <Link className={classes.link} to="/falcon-heavy">Falcon Heavy</Link>
                     </div>
                     <div>
-                        <Link className={classes.link} to="/dragon">Dragon</Link>
-                    </div>
-                    <div>
                         <Link className={classes.link} to="/starship">Starship</Link>
                     </div>
                 </nav>
@@ -57,9 +52,6 @@ const App = () => {
                     </Route>
                     <Route path="/falcon-heavy">
                         <FalconHeavy />
-                    </Route>
-                    <Route path="/dragon">
-                        <Dragon />
                     </Route>
                     <Route path="/starship">
                         <Starship />
